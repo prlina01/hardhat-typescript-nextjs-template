@@ -4,7 +4,7 @@ import {ExternalProvider, JsonRpcFetchFunc, Web3Provider} from "@ethersproject/p
 import {Web3ReactProvider} from "@web3-react/core";
 
 const getLibrary = (provider: ExternalProvider | JsonRpcFetchFunc) => {
-  return new Web3Provider(provider)
+    return new Web3Provider(provider)
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
